@@ -11,23 +11,41 @@
         android:id="@+id/btnComprobar"
         android:layout_width="247dp"
         android:layout_height="69dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="268dp"
         android:text="Comprobar"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.211" />
+
+    <EditText
+        android:id="@+id/respuesta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Respuesta..."
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C3C0C0"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
         android:layout_height="150dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="36dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,23 +75,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
-
-    <EditText
-        android:id="@+id/respuesta"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="304dp"
-        android:layout_marginEnd="32dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Respuesta..."
-        android:inputType="number"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#C3C0C0"
-        android:textSize="50sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

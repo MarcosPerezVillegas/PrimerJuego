@@ -1,6 +1,5 @@
 package com.example.primerjuego
 
-import android.app.Activity
 import android.content.Intent
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
